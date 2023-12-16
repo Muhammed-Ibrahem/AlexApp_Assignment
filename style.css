@@ -77,26 +77,11 @@ body {
 .cardsSection {
   padding-block: 5rem;
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
 }
-/* .cardsSection .topRow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  position: relative;
-} */
 
-/* .cardsSection .bottomRow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  position: relative;
-} */
 
 .card {
   border: 1px solid #999;
@@ -187,10 +172,7 @@ body {
   height: 100px;
   background-color: #999;
   position: absolute;
-  /* left: 0; */
-  /* top: 50%; */
   z-index: -1;
-  /* transform: translateY(-50%); */
 }
 @media (max-width: 579px) {
   .cardArrow {
